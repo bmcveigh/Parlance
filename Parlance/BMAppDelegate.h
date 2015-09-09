@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BMAppDelegate : UIResponder <UIApplicationDelegate>
+@interface BMAppDelegate : UIResponder <UIApplicationDelegate, UIAlertViewDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property BOOL firstLaunchWithiCloudAvailable;
 
 @end

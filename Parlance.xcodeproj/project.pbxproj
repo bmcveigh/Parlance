@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7DB58FDF182316F600EC9D70 /* BMViewControlleriPadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB58FDE182316F600EC9D70 /* BMViewControlleriPadViewController.m */; };
+		7DB58FE21823172A00EC9D70 /* BMImagePopoverTableViewControlleriPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB58FE11823172A00EC9D70 /* BMImagePopoverTableViewControlleriPad.m */; };
+		7DCCD03318253F7B00EE3A90 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DCCD03218253F7B00EE3A90 /* MessageUI.framework */; };
+		7DCCD0361825414D00EE3A90 /* MFMessageComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DCCD0351825414D00EE3A90 /* MFMessageComposeViewController.m */; };
+		7DCCD0391825421500EE3A90 /* MFMailComposeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DCCD0381825421500EE3A90 /* MFMailComposeViewController.m */; };
+		7DCCD03C1825481500EE3A90 /* APLAsyncImageActivityItemProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DCCD03B1825481500EE3A90 /* APLAsyncImageActivityItemProvider.m */; };
+		7DCCD0411825496700EE3A90 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DCCD0401825496700EE3A90 /* UIImage+Resize.m */; };
+		7DCCD04418254AC800EE3A90 /* APLProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DCCD04318254AC800EE3A90 /* APLProfile.m */; };
+		7DCCD04718254B5800EE3A90 /* APLUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DCCD04618254B5800EE3A90 /* APLUtilities.m */; };
 		7DD79E6E1821F56A00BC68DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DD79E6D1821F56A00BC68DC /* Foundation.framework */; };
 		7DD79E701821F56A00BC68DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DD79E6F1821F56A00BC68DC /* CoreGraphics.framework */; };
 		7DD79E721821F56A00BC68DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DD79E711821F56A00BC68DC /* UIKit.framework */; };
@@ -22,6 +31,8 @@
 		7DD79E921821F56A00BC68DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DD79E711821F56A00BC68DC /* UIKit.framework */; };
 		7DD79E9A1821F56A00BC68DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7DD79E981821F56A00BC68DC /* InfoPlist.strings */; };
 		7DD79E9C1821F56A00BC68DC /* ParlanceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD79E9B1821F56A00BC68DC /* ParlanceTests.m */; };
+		7DD79EA61821F83B00BC68DC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DD79EA51821F83B00BC68DC /* QuartzCore.framework */; };
+		7DD79EAA1822958000BC68DC /* BMFontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD79EA91822958000BC68DC /* BMFontViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7DB58FDD182316F600EC9D70 /* BMViewControlleriPadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMViewControlleriPadViewController.h; sourceTree = "<group>"; };
+		7DB58FDE182316F600EC9D70 /* BMViewControlleriPadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMViewControlleriPadViewController.m; sourceTree = "<group>"; };
+		7DB58FE01823172A00EC9D70 /* BMImagePopoverTableViewControlleriPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMImagePopoverTableViewControlleriPad.h; sourceTree = "<group>"; };
+		7DB58FE11823172A00EC9D70 /* BMImagePopoverTableViewControlleriPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMImagePopoverTableViewControlleriPad.m; sourceTree = "<group>"; };
+		7DCCD03218253F7B00EE3A90 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		7DCCD0341825414D00EE3A90 /* MFMessageComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFMessageComposeViewController.h; sourceTree = "<group>"; };
+		7DCCD0351825414D00EE3A90 /* MFMessageComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFMessageComposeViewController.m; sourceTree = "<group>"; };
+		7DCCD0371825421500EE3A90 /* MFMailComposeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFMailComposeViewController.h; sourceTree = "<group>"; };
+		7DCCD0381825421500EE3A90 /* MFMailComposeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFMailComposeViewController.m; sourceTree = "<group>"; };
+		7DCCD03A1825481500EE3A90 /* APLAsyncImageActivityItemProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APLAsyncImageActivityItemProvider.h; path = Parlance/APLAsyncImageActivityItemProvider.h; sourceTree = "<group>"; };
+		7DCCD03B1825481500EE3A90 /* APLAsyncImageActivityItemProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APLAsyncImageActivityItemProvider.m; path = Parlance/APLAsyncImageActivityItemProvider.m; sourceTree = "<group>"; };
+		7DCCD03F1825496700EE3A90 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		7DCCD0401825496700EE3A90 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		7DCCD04218254AC800EE3A90 /* APLProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLProfile.h; sourceTree = "<group>"; };
+		7DCCD04318254AC800EE3A90 /* APLProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLProfile.m; sourceTree = "<group>"; };
+		7DCCD04518254B5800EE3A90 /* APLUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLUtilities.h; sourceTree = "<group>"; };
+		7DCCD04618254B5800EE3A90 /* APLUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLUtilities.m; sourceTree = "<group>"; };
 		7DD79E6A1821F56A00BC68DC /* Parlance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parlance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DD79E6D1821F56A00BC68DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7DD79E6F1821F56A00BC68DC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -55,6 +83,10 @@
 		7DD79E971821F56A00BC68DC /* ParlanceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ParlanceTests-Info.plist"; sourceTree = "<group>"; };
 		7DD79E991821F56A00BC68DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7DD79E9B1821F56A00BC68DC /* ParlanceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParlanceTests.m; sourceTree = "<group>"; };
+		7DD79EA51821F83B00BC68DC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7DD79EA71821F9A600BC68DC /* Parlance.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Parlance.entitlements; sourceTree = "<group>"; };
+		7DD79EA81822958000BC68DC /* BMFontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMFontViewController.h; sourceTree = "<group>"; };
+		7DD79EA91822958000BC68DC /* BMFontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMFontViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +94,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DCCD03318253F7B00EE3A90 /* MessageUI.framework in Frameworks */,
+				7DD79EA61821F83B00BC68DC /* QuartzCore.framework in Frameworks */,
 				7DD79E701821F56A00BC68DC /* CoreGraphics.framework in Frameworks */,
 				7DD79E721821F56A00BC68DC /* UIKit.framework in Frameworks */,
 				7DD79E6E1821F56A00BC68DC /* Foundation.framework in Frameworks */,
@@ -81,6 +115,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7DB58FDA1823164300EC9D70 /* iPhone View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7DD79E851821F56A00BC68DC /* BMViewController.h */,
+				7DD79E861821F56A00BC68DC /* BMViewController.m */,
+				7DD79EA81822958000BC68DC /* BMFontViewController.h */,
+				7DD79EA91822958000BC68DC /* BMFontViewController.m */,
+				7DCCD0341825414D00EE3A90 /* MFMessageComposeViewController.h */,
+				7DCCD0351825414D00EE3A90 /* MFMessageComposeViewController.m */,
+				7DCCD0371825421500EE3A90 /* MFMailComposeViewController.h */,
+				7DCCD0381825421500EE3A90 /* MFMailComposeViewController.m */,
+			);
+			name = "iPhone View Controllers";
+			sourceTree = "<group>";
+		};
+		7DB58FDC1823166500EC9D70 /* iPad View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7DB58FDD182316F600EC9D70 /* BMViewControlleriPadViewController.h */,
+				7DB58FDE182316F600EC9D70 /* BMViewControlleriPadViewController.m */,
+				7DB58FE01823172A00EC9D70 /* BMImagePopoverTableViewControlleriPad.h */,
+				7DB58FE11823172A00EC9D70 /* BMImagePopoverTableViewControlleriPad.m */,
+			);
+			name = "iPad View Controllers";
+			sourceTree = "<group>";
+		};
+		7DCCD03D1825483500EE3A90 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7DCCD03A1825481500EE3A90 /* APLAsyncImageActivityItemProvider.h */,
+				7DCCD03B1825481500EE3A90 /* APLAsyncImageActivityItemProvider.m */,
+				7DCCD04218254AC800EE3A90 /* APLProfile.h */,
+				7DCCD04318254AC800EE3A90 /* APLProfile.m */,
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		7DCCD03E1825495100EE3A90 /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				7DCCD03F1825496700EE3A90 /* UIImage+Resize.h */,
+				7DCCD0401825496700EE3A90 /* UIImage+Resize.m */,
+				7DCCD04518254B5800EE3A90 /* APLUtilities.h */,
+				7DCCD04618254B5800EE3A90 /* APLUtilities.m */,
+			);
+			name = Extras;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		7DD79E611821F56A00BC68DC = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +187,8 @@
 		7DD79E6C1821F56A00BC68DC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7DCCD03218253F7B00EE3A90 /* MessageUI.framework */,
+				7DD79EA51821F83B00BC68DC /* QuartzCore.framework */,
 				7DD79E6D1821F56A00BC68DC /* Foundation.framework */,
 				7DD79E6F1821F56A00BC68DC /* CoreGraphics.framework */,
 				7DD79E711821F56A00BC68DC /* UIKit.framework */,
@@ -114,13 +200,16 @@
 		7DD79E731821F56A00BC68DC /* Parlance */ = {
 			isa = PBXGroup;
 			children = (
+				7DD79EA71821F9A600BC68DC /* Parlance.entitlements */,
 				7DD79E7C1821F56A00BC68DC /* BMAppDelegate.h */,
 				7DD79E7D1821F56A00BC68DC /* BMAppDelegate.m */,
 				7DD79E7F1821F56A00BC68DC /* Main_iPhone.storyboard */,
 				7DD79E821821F56A00BC68DC /* Main_iPad.storyboard */,
-				7DD79E851821F56A00BC68DC /* BMViewController.h */,
-				7DD79E861821F56A00BC68DC /* BMViewController.m */,
+				7DB58FDC1823166500EC9D70 /* iPad View Controllers */,
+				7DB58FDA1823164300EC9D70 /* iPhone View Controllers */,
 				7DD79E881821F56A00BC68DC /* Images.xcassets */,
+				7DCCD03E1825495100EE3A90 /* Extras */,
+				7DCCD03D1825483500EE3A90 /* Model */,
 				7DD79E741821F56A00BC68DC /* Supporting Files */,
 			);
 			path = Parlance;
@@ -203,6 +292,14 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Brian McVeigh";
 				TargetAttributes = {
+					7DD79E691821F56A00BC68DC = {
+						DevelopmentTeam = JPCCFXGTXF;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
 					7DD79E8D1821F56A00BC68DC = {
 						TestTargetID = 7DD79E691821F56A00BC68DC;
 					};
@@ -254,9 +351,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DB58FE21823172A00EC9D70 /* BMImagePopoverTableViewControlleriPad.m in Sources */,
 				7DD79E871821F56A00BC68DC /* BMViewController.m in Sources */,
+				7DCCD04718254B5800EE3A90 /* APLUtilities.m in Sources */,
+				7DB58FDF182316F600EC9D70 /* BMViewControlleriPadViewController.m in Sources */,
+				7DCCD03C1825481500EE3A90 /* APLAsyncImageActivityItemProvider.m in Sources */,
+				7DCCD0391825421500EE3A90 /* MFMailComposeViewController.m in Sources */,
+				7DCCD0361825414D00EE3A90 /* MFMessageComposeViewController.m in Sources */,
 				7DD79E7A1821F56A00BC68DC /* main.m in Sources */,
+				7DD79EAA1822958000BC68DC /* BMFontViewController.m in Sources */,
 				7DD79E7E1821F56A00BC68DC /* BMAppDelegate.m in Sources */,
+				7DCCD04418254AC800EE3A90 /* APLProfile.m in Sources */,
+				7DCCD0411825496700EE3A90 /* UIImage+Resize.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +499,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = Parlance/Parlance.entitlements;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Parlance/Parlance-Prefix.pch";
 				INFOPLIST_FILE = "Parlance/Parlance-Info.plist";
@@ -406,6 +513,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = Parlance/Parlance.entitlements;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Parlance/Parlance-Prefix.pch";
 				INFOPLIST_FILE = "Parlance/Parlance-Info.plist";
@@ -475,6 +583,7 @@
 				7DD79EA11821F56A00BC68DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7DD79EA21821F56A00BC68DC /* Build configuration list for PBXNativeTarget "ParlanceTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +592,7 @@
 				7DD79EA41821F56A00BC68DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
